@@ -1,7 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-
+var  x={
+  givenName:"Saif",
+  age: 23
+}
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
@@ -9,7 +13,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        
+        <h1>{x.givenName}</h1>
+        <p>Hello world</p>
       </header>
     </div>
   );
